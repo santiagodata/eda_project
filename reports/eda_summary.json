@@ -1,0 +1,171 @@
+{
+  "n_rows_raw": 1208,
+  "n_cols": 16,
+  "dtypes": {
+    "customer_id": "int64",
+    "signup_date": "object",
+    "region": "object",
+    "acquisition_channel": "object",
+    "preferred_device": "object",
+    "sessions_last_30d": "int64",
+    "orders_last_90d": "int64",
+    "avg_order_value_usd": "float64",
+    "discount_rate": "float64",
+    "support_tickets_last_90d": "int64",
+    "return_rate": "float64",
+    "nps_score": "float64",
+    "tenure_months": "int64",
+    "gross_revenue_12m_usd": "float64",
+    "last_purchase_date": "object",
+    "churned": "int64"
+  },
+  "missing_by_col": {
+    "last_purchase_date": 114,
+    "nps_score": 45,
+    "preferred_device": 30,
+    "customer_id": 0,
+    "acquisition_channel": 0,
+    "sessions_last_30d": 0,
+    "region": 0,
+    "signup_date": 0,
+    "avg_order_value_usd": 0,
+    "orders_last_90d": 0,
+    "support_tickets_last_90d": 0,
+    "discount_rate": 0,
+    "return_rate": 0,
+    "tenure_months": 0,
+    "gross_revenue_12m_usd": 0,
+    "churned": 0
+  },
+  "duplicate_rows": 8,
+  "n_rows_after_dedup": 1200,
+  "numeric_describe": {
+    "count": {
+      "sessions_last_30d": 1200.0,
+      "orders_last_90d": 1200.0,
+      "avg_order_value_usd": 1200.0,
+      "discount_rate": 1200.0,
+      "support_tickets_last_90d": 1200.0,
+      "return_rate": 1200.0,
+      "nps_score": 1155.0,
+      "tenure_months": 1200.0,
+      "gross_revenue_12m_usd": 1200.0
+    },
+    "mean": {
+      "sessions_last_30d": 8.982,
+      "orders_last_90d": 2.408,
+      "avg_order_value_usd": 43.488,
+      "discount_rate": 0.156,
+      "support_tickets_last_90d": 0.292,
+      "return_rate": 0.114,
+      "nps_score": 33.18,
+      "tenure_months": 11.964,
+      "gross_revenue_12m_usd": 129.987
+    },
+    "std": {
+      "sessions_last_30d": 3.044,
+      "orders_last_90d": 1.571,
+      "avg_order_value_usd": 13.119,
+      "discount_rate": 0.094,
+      "support_tickets_last_90d": 0.537,
+      "return_rate": 0.075,
+      "nps_score": 25.112,
+      "tenure_months": 6.815,
+      "gross_revenue_12m_usd": 108.196
+    },
+    "min": {
+      "sessions_last_30d": 2.0,
+      "orders_last_90d": 0.0,
+      "avg_order_value_usd": 17.29,
+      "discount_rate": 0.008,
+      "support_tickets_last_90d": 0.0,
+      "return_rate": 0.002,
+      "nps_score": -46.0,
+      "tenure_months": 1.0,
+      "gross_revenue_12m_usd": 0.0
+    },
+    "1%": {
+      "sessions_last_30d": 3.0,
+      "orders_last_90d": 0.0,
+      "avg_order_value_usd": 21.037,
+      "discount_rate": 0.017,
+      "support_tickets_last_90d": 0.0,
+      "return_rate": 0.011,
+      "nps_score": -21.0,
+      "tenure_months": 1.0,
+      "gross_revenue_12m_usd": 0.0
+    },
+    "5%": {
+      "sessions_last_30d": 4.0,
+      "orders_last_90d": 0.0,
+      "avg_order_value_usd": 25.606,
+      "discount_rate": 0.033,
+      "support_tickets_last_90d": 0.0,
+      "return_rate": 0.022,
+      "nps_score": -6.0,
+      "tenure_months": 1.0,
+      "gross_revenue_12m_usd": 0.0
+    },
+    "50%": {
+      "sessions_last_30d": 9.0,
+      "orders_last_90d": 2.0,
+      "avg_order_value_usd": 41.58,
+      "discount_rate": 0.143,
+      "support_tickets_last_90d": 0.0,
+      "return_rate": 0.097,
+      "nps_score": 32.0,
+      "tenure_months": 12.0,
+      "gross_revenue_12m_usd": 106.695
+    },
+    "95%": {
+      "sessions_last_30d": 14.0,
+      "orders_last_90d": 5.0,
+      "avg_order_value_usd": 67.395,
+      "discount_rate": 0.332,
+      "support_tickets_last_90d": 1.0,
+      "return_rate": 0.256,
+      "nps_score": 78.0,
+      "tenure_months": 22.0,
+      "gross_revenue_12m_usd": 342.702
+    },
+    "99%": {
+      "sessions_last_30d": 17.0,
+      "orders_last_90d": 7.0,
+      "avg_order_value_usd": 83.255,
+      "discount_rate": 0.443,
+      "support_tickets_last_90d": 2.0,
+      "return_rate": 0.334,
+      "nps_score": 100.0,
+      "tenure_months": 24.0,
+      "gross_revenue_12m_usd": 503.013
+    },
+    "max": {
+      "sessions_last_30d": 23.0,
+      "orders_last_90d": 9.0,
+      "avg_order_value_usd": 95.55,
+      "discount_rate": 0.638,
+      "support_tickets_last_90d": 4.0,
+      "return_rate": 0.454,
+      "nps_score": 100.0,
+      "tenure_months": 24.0,
+      "gross_revenue_12m_usd": 962.83
+    }
+  },
+  "corr_with_churn": {
+    "churned": 1.0,
+    "return_rate": 0.055,
+    "discount_rate": 0.019,
+    "avg_order_value_usd": 0.013,
+    "support_tickets_last_90d": 0.001,
+    "tenure_months": -0.009,
+    "sessions_last_30d": -0.048,
+    "gross_revenue_12m_usd": -0.051,
+    "orders_last_90d": -0.066,
+    "nps_score": -0.247
+  },
+  "outlier_counts_iqr": {
+    "gross_revenue_12m_usd": 51,
+    "avg_order_value_usd": 25,
+    "orders_last_90d": 16
+  }
+}
