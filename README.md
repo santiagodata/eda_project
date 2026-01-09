@@ -86,7 +86,7 @@ Al ejecutar el script se generan automáticamente:
 - **`reports/figures/*.png`**  
   Gráficos del EDA (histogramas, boxplots por churn, tasas de churn por segmento y matriz de correlación).
 
-- **`reports/EDA_Report.md`**  
+- **[`reports/EDA_Report.md`](reports/EDA_Report.md)**   
   Informe del EDA con narrativa analítica y gráficos embebidos.
 
 ---
